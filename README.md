@@ -22,7 +22,7 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 
 <!-- TODO: Make technologies links takes you to repositories -->
 
-[![Redux Badge](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Nextjs](https://img.shields.io/badge/next.js-fff?style=for-the-badge&logo=nextdotjs&logoColor=000&labelColor=fff&color=000)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![ExpressJS Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](#) [![SCSS Badge](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
+[![Redux Badge](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Nextjs](https://img.shields.io/badge/next.js-fff?style=for-the-badge&logo=nextdotjs&logoColor=000&labelColor=fff&color=000)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![ExpressJS Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](#) [![SCSS Badge](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#) [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](#)
 
 ### Text Editor
 
@@ -49,9 +49,11 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 #### Coding Stats
 
 <!--START_SECTION:waka-->
+
 ```text
 No Activity tracked this Week
 ```
+
 <!--END_SECTION:waka-->
 
 #### Github Stats
