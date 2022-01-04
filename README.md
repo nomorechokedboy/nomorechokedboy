@@ -11,7 +11,6 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 
 - 🔭 I’m currently studying at @HCMUTE and following MERN stack.
 - :computer: Most used line of code `nvim ls cd mv cp ln mkdir`
-- 🤔 I’m looking for internship job.
 - 📫 How to reach me: haiduongit@protonmail.com.
 - ⚡ Fun fact: I write code and workout almost everyday.
 
@@ -28,7 +27,7 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 ### Text Editor
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Neovim](https://img.shields.io/badge/Peavim-43a047.svg?style=for-the-badge&logo=neovim&logoColor=43a047&labelColor=fff&color=43a047)
+![Neovim](https://img.shields.io/badge/Neovim-43a047.svg?style=for-the-badge&logo=neovim&logoColor=43a047&labelColor=fff&color=43a047)
 
 #### Bizness
 
