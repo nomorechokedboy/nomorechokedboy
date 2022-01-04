@@ -9,26 +9,26 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 
 <!-- TODO: Add last video link -->
 
-- 🔭 I’m currently studying at @HCMUTE
+- 🔭 I’m currently studying at @HCMUTE and following MERN stack.
 - :computer: Most used line of code `nvim ls cd mv cp ln mkdir`
 - 🤔 I’m looking for internship job.
 - 📫 How to reach me: haiduongit@protonmail.com.
 - ⚡ Fun fact: I write code and workout almost everyday.
 
-#### Top Technologies
+### Languagues
+
+[![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](#) [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](#)
+
+#### Technologies
 
 <!-- TODO: Make technologies links takes you to repositories -->
 
-[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#)
-[![SCSS Badge](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#) [![ExpressJS Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](#) [![Redux Badge](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](#)
+[![Redux Badge](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Nextjs](https://img.shields.io/badge/next.js-fff?style=for-the-badge&logo=nextdotjs&logoColor=000&labelColor=fff&color=000)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![ExpressJS Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](#) [![SCSS Badge](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 
 ### Text Editor
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
-
-<br />
-<br />
+![Neovim](https://img.shields.io/badge/Peavim-43a047.svg?style=for-the-badge&logo=neovim&logoColor=43a047&labelColor=fff&color=43a047)
 
 #### Bizness
 
