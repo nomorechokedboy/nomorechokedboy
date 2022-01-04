@@ -49,6 +49,9 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 #### Coding Stats
 
 <!--START_SECTION:waka-->
+```text
+No Activity tracked this Week
+```
 <!--END_SECTION:waka-->
 
 #### Github Stats
