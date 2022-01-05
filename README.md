@@ -49,11 +49,13 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 #### Coding Stats
 
 <!--START_SECTION:waka-->
-
 ```text
-No Activity tracked this Week
+JavaScript   1 hr 51 mins    ██████████████▓░░░░░░░░░░   58.17 % 
+Markdown     35 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.51 % 
+Lua          13 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
+Git Config   12 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
+YAML         9 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.03 % 
 ```
-
 <!--END_SECTION:waka-->
 
 #### Github Stats
