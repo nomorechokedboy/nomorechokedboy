@@ -16,13 +16,13 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 
 ### Languagues
 
-[![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](#) [![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#)[![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#)[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](#)[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](#)
 
 #### Technologies
 
 <!-- TODO: Make technologies links takes you to repositories -->
 
-[![Redux Badge](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Nextjs](https://img.shields.io/badge/next.js-fff?style=for-the-badge&logo=nextdotjs&logoColor=000&labelColor=fff&color=000)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![ExpressJS Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](#) [![SCSS Badge](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#) [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](#)
+[![Redux Badge](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](#)[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)[![Nextjs](https://img.shields.io/badge/next.js-fff?style=for-the-badge&logo=nextdotjs&logoColor=000&labelColor=fff&color=000)](#)[![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#)[![ExpressJS Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](#)[![SCSS Badge](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](#)
 
 ### Text Editor
 
@@ -34,10 +34,6 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 <!-- - :paperclip: [My Resume/CV](https://github.com/ipenywis/ipenywis/blob/master/resumes/resume%20v1.0.pdf) -->
 
 - :email: haiduongit@protonmail.com
-
-#### Profile Visits
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=nomorechokedboy.nomorechokedboy)
 
 <details>
 <summary>
@@ -55,9 +51,5 @@ No Activity tracked this Week
 ```
 
 <!--END_SECTION:waka-->
-
-#### Github Stats
-
-![Duong Le's github stats](https://github-readme-stats.vercel.app/api?username=nomorechokedboy&count_private=true&theme=tokyonight&hide=contribs,prs)
 
 </details>
