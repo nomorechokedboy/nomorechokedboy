@@ -44,6 +44,13 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 #### Coding Stats
 
 <!--START_SECTION:waka-->
+```text
+TypeScript   10 hrs 40 mins  ███████▓░░░░░░░░░░░░░░░░░   30.87 % 
+YAML         7 hrs 18 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.10 % 
+JavaScript   5 hrs 59 mins   ████▒░░░░░░░░░░░░░░░░░░░░   17.33 % 
+CSS          5 hrs 48 mins   ████▒░░░░░░░░░░░░░░░░░░░░   16.78 % 
+JSON         1 hr 22 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.96 % 
+```
 <!--END_SECTION:waka-->
 
 </details>
