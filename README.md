@@ -30,7 +30,7 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 
 #### Bizness
 
-- :paperclip: [My Resume/CV](https://github.com/nomorechokedboy/nomorechokedboy/blob/master/resumes/Resume%20v1.0.pdf)
+- :paperclip: [My Resume/CV](https://github.com/nomorechokedboy/nomorechokedboy/blob/master/resumes/Resume-v1.0.pdf)
 
 - :email: haiduongit@protonmail.com
 
