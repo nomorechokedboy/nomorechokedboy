@@ -45,10 +45,7 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 
 <!--START_SECTION:waka-->
 ```text
-Lua           36 mins         ████████████▒░░░░░░░░░░░░   49.84 % 
-JavaScript    18 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.36 % 
-Rust          15 mins         █████▒░░░░░░░░░░░░░░░░░░░   21.89 % 
-VimL          2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.77 % 
+No Activity tracked this Week
 ```
 <!--END_SECTION:waka-->
 
