@@ -45,7 +45,7 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+Rust   47 mins         █████████████████████████   100.00 % 
 ```
 <!--END_SECTION:waka-->
 
