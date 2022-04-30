@@ -46,12 +46,12 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 <!--START_SECTION:waka-->
 
 ```text
-Dart         11 hrs 33 mins  █████████████▓░░░░░░░░░░░   54.01 %
-TypeScript   5 hrs 10 mins   ██████░░░░░░░░░░░░░░░░░░░   24.20 %
-Python       3 hrs 24 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.95 %
-YAML         49 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.88 %
-Git Config   10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.78 %
-JSON         8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 %
+Dart         11 hrs 7 mins   █████████████████░░░░░░░░   67.62 %
+TypeScript   4 hrs 1 min     ██████░░░░░░░░░░░░░░░░░░░   24.46 %
+YAML         31 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.15 %
+Python       27 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.76 %
+Git Config   6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.67 %
+JSON         6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 %
 ```
 
 <!--END_SECTION:waka-->
