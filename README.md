@@ -46,12 +46,12 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 <!--START_SECTION:waka-->
 
 ```text
-TypeScript   26 hrs 32 mins  ██████████████░░░░░░░░░░░   56.26 %
-SCSS         9 hrs 7 mins    █████░░░░░░░░░░░░░░░░░░░░   19.34 %
-CSS          6 hrs 20 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.44 %
-JavaScript   1 hr 48 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.83 %
-YAML         1 hr 33 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.30 %
-Bash         34 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.21 %
+TypeScript   23 hrs 31 mins  █████████████▒░░░░░░░░░░░   53.28 %
+SCSS         9 hrs 7 mins    █████░░░░░░░░░░░░░░░░░░░░   20.66 %
+CSS          6 hrs 20 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.35 %
+JavaScript   1 hr 48 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.09 %
+YAML         1 hr 33 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 %
+Bash         34 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.29 %
 ```
 
 <!--END_SECTION:waka-->
