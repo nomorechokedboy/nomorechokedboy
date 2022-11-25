@@ -46,12 +46,12 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 <!--START_SECTION:waka-->
 
 ```text
-TypeScript    27 hrs 58 mins  █████████████░░░░░░░░░░░░   52.21 %
-Svelte        21 hrs 36 mins  ██████████░░░░░░░░░░░░░░░   40.30 %
-CSS           59 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.84 %
-JavaScript    45 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.43 %
-JSON          40 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.27 %
-LESS          26 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.84 %
+TypeScript    29 hrs 21 mins  ████████████▒░░░░░░░░░░░░   49.01 %
+Svelte        27 hrs 5 mins   ███████████▒░░░░░░░░░░░░░   45.24 %
+CSS           1 hr 2 mins     ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.75 %
+JSON          42 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.17 %
+LESS          25 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.72 %
+Other         17 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.49 %
 ```
 
 <!--END_SECTION:waka-->
