@@ -58,12 +58,11 @@ I'm Duong Le, I am currently learning to become a Full Stack Web Developer. I Sp
 <!--START_SECTION:waka-->
 
 ```text
-Go           19 hrs 8 mins   ██████████████████▒░░░░░░   73.05 %
-YAML         1 hr 59 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.62 %
-TypeScript   1 hr 12 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.63 %
-JSON         1 hr 11 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
-Vue.js       38 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.46 %
-Other        33 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.14 %
+Go           17 hrs 46 mins  ████████████████████████░   95.47 %
+Markdown     16 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.45 %
+YAML         11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.00 %
+JSON         6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 %
+Other        6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.56 %
 ```
 
 <!--END_SECTION:waka-->
