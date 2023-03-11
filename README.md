@@ -2,7 +2,7 @@
 
 I'm Duong Le, I am currently learning to become a Software Engineer. I Spend most of time coding outstanding projects and learning `rust/go/typescript` + amazing things about programming world.
 
-:mailbox: Reach me out!
+### :mailbox: Reach me out!
 
 [![Mail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:songji2k@gmail.com)[![Mail Badge](https://img.shields.io/badge/protonmail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:haiduongit@protonmail.com)[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/le-ho-hai-duong-8b7382220/)
 
