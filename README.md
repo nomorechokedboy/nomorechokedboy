@@ -47,12 +47,12 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 <!--START_SECTION:waka-->
 
 ```text
-Vue.js       16 hrs 31 mins  ██████████▓░░░░░░░░░░░░░░   42.72 %
-TypeScript   8 hrs 46 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.71 %
-Go           7 hrs 27 mins   ████▓░░░░░░░░░░░░░░░░░░░░   19.26 %
-Docker       1 hr 16 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.29 %
-YAML         1 hr 8 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.95 %
-Rust         51 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.23 %
+Vue.js       17 hrs 47 mins  ███████████▓░░░░░░░░░░░░░   46.97 %
+TypeScript   9 hrs 8 mins    ██████░░░░░░░░░░░░░░░░░░░   24.16 %
+Go           6 hrs 6 mins    ████░░░░░░░░░░░░░░░░░░░░░   16.12 %
+Docker       54 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.41 %
+YAML         52 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.33 %
+Git          43 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.91 %
 ```
 
 <!--END_SECTION:waka-->
