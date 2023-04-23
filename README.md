@@ -47,12 +47,12 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 <!--START_SECTION:waka-->
 
 ```text
-Rust         10 hrs 18 mins  ██████████░░░░░░░░░░░░░░░   39.68 %
-Go           5 hrs 8 mins    █████░░░░░░░░░░░░░░░░░░░░   19.79 %
-Vue.js       4 hrs 11 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.17 %
-Svelte       1 hr 42 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.57 %
-SQL          1 hr 1 min      █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 %
-Docker       52 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.40 %
+Rust         10 hrs 43 mins  ██████████░░░░░░░░░░░░░░░   40.34 %
+Go           7 hrs 33 mins   ███████░░░░░░░░░░░░░░░░░░   28.39 %
+Vue.js       1 hr 59 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.51 %
+Svelte       1 hr 52 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   07.07 %
+SQL          1 hr 1 min      █░░░░░░░░░░░░░░░░░░░░░░░░   03.88 %
+Docker       52 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.32 %
 ```
 
 <!--END_SECTION:waka-->
