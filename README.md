@@ -47,12 +47,12 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 <!--START_SECTION:waka-->
 
 ```text
-Rust         27 hrs 11 mins  ████████████████▒░░░░░░░░   65.48 %
-Go           6 hrs 44 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.22 %
-YAML         2 hrs 14 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.41 %
-Svelte       1 hr 2 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.51 %
-Git          51 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.06 %
-netrw        41 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.67 %
+Rust         21 hrs 26 mins  ████████████████░░░░░░░░░   63.94 %
+Go           5 hrs 34 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.61 %
+YAML         2 hrs 14 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.70 %
+Git          51 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.55 %
+netrw        40 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.04 %
+Docker       38 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.92 %
 ```
 
 <!--END_SECTION:waka-->
