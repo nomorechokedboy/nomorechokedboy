@@ -1,7 +1,6 @@
 // @refresh reload
 import { Suspense } from 'solid-js'
 import {
-	A,
 	Body,
 	ErrorBoundary,
 	FileRoutes,
@@ -10,19 +9,16 @@ import {
 	Meta,
 	Routes,
 	Scripts,
-	Title,
-	useLocation
+	Title
 } from 'solid-start'
-import './root.css'
+import Header from '~/Header'
+import '~/root.css'
+import { themeStore } from '~/stores'
 
 export default function Root() {
-	const location = useLocation()
-	const active = (path: string) =>
-		path == location.pathname
-			? 'border-sky-600'
-			: 'border-transparent hover:border-sky-600'
+	const { theme } = themeStore
 	return (
-		<Html lang='en'>
+		<Html class={theme()} lang='en'>
 			<Head>
 				<Title>SolidStart - With TailwindCSS</Title>
 				<Meta charset='utf-8' />
@@ -31,34 +27,15 @@ export default function Root() {
 					content='width=device-width, initial-scale=1'
 				/>
 			</Head>
-			<Body>
+			<Body class='bg-white dark:bg-[#111] relative'>
 				<Suspense>
 					<ErrorBoundary>
-						<nav class='bg-sky-800'>
-							<ul class='container flex items-center p-3 text-gray-200'>
-								<li
-									class={`border-b-2 ${active(
-										'/'
-									)} mx-1.5 sm:mx-6 dark:text-red-500`}
-								>
-									<A href='/'>
-										Home
-									</A>
-								</li>
-								<li
-									class={`border-b-2 ${active(
-										'/about'
-									)} mx-1.5 sm:mx-6`}
-								>
-									<A href='/about'>
-										About
-									</A>
-								</li>
-							</ul>
-						</nav>
-						<Routes>
-							<FileRoutes />
-						</Routes>
+						<Header />
+						<div class='max-w-screen-2xl w-full mx-auto'>
+							<Routes>
+								<FileRoutes />
+							</Routes>
+						</div>
 					</ErrorBoundary>
 				</Suspense>
 				<Scripts />
