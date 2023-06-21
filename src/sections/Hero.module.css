@@ -1,0 +1,57 @@
+.gradientButton {
+	animation: glowing 8s ease-in-out infinite;
+}
+
+.test {
+	animation: glowing-text-1 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #007cf0, #00dfd8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.test1 {
+	animation: glowing-text-1 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #7928ca, #ff0080);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.test2 {
+	animation: glowing-text-1 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #ff4d4d, #f9cb28);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes glowing {
+	0% {
+		background: linear-gradient(165deg, #007cf0, #00dfd8);
+	}
+	50% {
+		background: linear-gradient(165deg, #7928ca, #ff0080);
+	}
+	100% {
+		background: linear-gradient(165deg, #ff4d4d, #f9cb28);
+	}
+}
+
+@keyframes glowing-text-1 {
+	50%,
+	100% {
+		-webkit-text-fill-color: black;
+	}
+}
+
+@keyframes glowing-text-2 {
+	0%,
+	100% {
+		-webkit-text-fill-color: black;
+	}
+}
+
+@keyframes glowing-text-3 {
+	0%,
+	50% {
+		-webkit-text-fill-color: black;
+	}
+}
