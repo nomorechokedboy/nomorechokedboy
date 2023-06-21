@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
         '@commitlint/cli': ^17.6.5
         '@commitlint/config-conventional': ^17.6.5
+        '@fontsource/poppins': ^5.0.3
         '@iconify/json': ^2.2.81
         '@solidjs/meta': ^0.28.2
         '@solidjs/router': ^0.8.2
@@ -24,6 +25,7 @@ specifiers:
         vite: ^4.1.4
 
 dependencies:
+        '@fontsource/poppins': 5.0.3
         '@solidjs/meta': 0.28.4_solid-js@1.7.4
         '@solidjs/router': 0.8.2_solid-js@1.7.4
         solid-js: 1.7.4
@@ -1982,6 +1984,13 @@ packages:
                 os: [win32]
                 requiresBuild: true
                 optional: true
+
+        /@fontsource/poppins/5.0.3:
+                resolution:
+                        {
+                                integrity: sha512-5lL2vmvmh4zbknTh1nVH9pTWyhYqAlYMHIAnkNhqo5qwMZGlr+coM1dtMwiQHRBgmHAl3ZvJ35Bj0s8cpmXZbg==
+                        }
+                dev: false
 
         /@hapi/hoek/9.3.0:
                 resolution:
