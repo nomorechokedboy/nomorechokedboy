@@ -31,7 +31,7 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 
 ### Bizness
 
-- :paperclip: [My Resume/CV](https://github.com/nomorechokedboy/nomorechokedboy/blob/master/resumes/Resume-v1.0.pdf)
+- :paperclip: [My Resume/CV](https://github.com/nomorechokedboy/nomorechokedboy/blob/master/resumes/Resume-v2.0.pdf)
 
 - :email: haiduongit@protonmail.com
 
