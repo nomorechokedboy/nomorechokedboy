@@ -1,17 +1,14 @@
 import AboutImage from '~/assets/about.gif'
+import SectionHeader from '~/components/SectionHeader'
 import DownloadIcon from '~icons/line-md/download-loop'
 
 export default function About() {
 	return (
 		<section class='flex flex-col gap-5 p-5'>
-			<header class='flex flex-col gap-3 items-center'>
-				<h2 class='font-bold text-5xl text-black dark:text-white'>
-					About me
-				</h2>
-				<p class='font-semibold text-2xl text-neutral-600 dark:text-neutral-400'>
-					My introduction
-				</p>
-			</header>
+			<SectionHeader
+				title='About me'
+				subTitle='My introduction'
+			/>
 			<div class='flex flex-col-reverse gap-5 md:flex-row'>
 				<figure class='flex-1'>
 					<img
