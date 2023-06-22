@@ -1,4 +1,4 @@
-import { themeStore } from '~/stores'
+import { AppTheme, themeStore } from '~/stores'
 import ComputerIcon from '~icons/ep/monitor'
 import SunIcon from '~icons/material-symbols/wb-sunny-outline-rounded'
 import MoonIcon from '~icons/ph/moon'
@@ -12,6 +12,21 @@ export default function ThemeSwitcher() {
 		setTheme('dark')
 	}
 	function handleChangeOsTheme() {
+		let theme: AppTheme
+
+		if (window.matchMedia) {
+			if (
+				window.matchMedia(
+					'(prefers-color-scheme: dark)'
+				).matches
+			) {
+				theme = 'dark'
+			} else {
+				theme = 'light'
+			}
+		} else {
+			theme = 'light'
+		}
 		setTheme('os')
 	}
 
