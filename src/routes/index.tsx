@@ -1,6 +1,5 @@
-import { createEffect } from 'solid-js'
-import { A, useLocation } from 'solid-start'
 import About from '~/sections/About'
+import Contact from '~/sections/Contact'
 import Hero from '~/sections/Hero'
 import Projects from '~/sections/Projects'
 
@@ -10,6 +9,7 @@ export default function Home() {
 			<Hero />
 			<About />
 			<Projects />
+			<Contact />
 		</main>
 	)
 }
