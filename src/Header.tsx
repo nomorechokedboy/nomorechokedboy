@@ -5,6 +5,22 @@ import Burger from './components/Burger'
 
 type Navigation = { href: string; children: JSX.Element }
 
+function MobileNav({ href, children }: Navigation) {
+	return (
+		<li class='py-3 border-b border-neutral-200'>
+			<A href={href}>{children}</A>
+		</li>
+	)
+}
+
+function Navigations({ href, children }: Navigation) {
+	return (
+		<li>
+			<A href={href}>{children}</A>
+		</li>
+	)
+}
+
 export default function Header() {
 	const [opened, setOpened] = createSignal(false)
 	const navigations: Navigation[] = [
@@ -13,20 +29,6 @@ export default function Header() {
 		{ href: '#projects', children: 'Projects' },
 		{ href: '#contact', children: 'Contact' }
 	]
-	function renderNav({ href, children }: Navigation) {
-		return (
-			<li>
-				<A href={href}>{children}</A>
-			</li>
-		)
-	}
-	function renderMobileNav({ href, children }: Navigation) {
-		return (
-			<li class='py-3 border-b border-neutral-200'>
-				<A href={href}>{children}</A>
-			</li>
-		)
-	}
 	function handleBurgerClick() {
 		setOpened(!opened())
 	}
@@ -34,7 +36,9 @@ export default function Header() {
 	return (
 		<header
 			class='flex flex-col text-base text-[#2d2e32] dark:text-[#ededed] sticky top-0 z-40'
-			classList={{ 'h-screen': opened() }}
+			classList={{
+				'h-screen bg-white dark:bg-black': opened()
+			}}
 		>
 			<div class='w-full shadow-[rgba(0,_0,_0,_0.1)_0px_-1px_0px_0px_inset] dark:shadow-[rgba(255,_255,_255,_0.1)_0px_-1px_0px_0px_inset] bg-white/80 dark:bg-black/50 before:absolute before:inset-0 before:-z-10 before:backdrop-blur-sm'>
 				<div class='flex items-center bg-transparent max-w-screen-2xl w-full mx-auto p-3'>
@@ -56,7 +60,7 @@ export default function Header() {
 						</div>
 						<ul class='hidden justify-end items-center gap-10 md:flex'>
 							<For each={navigations}>
-								{renderNav}
+								{Navigations}
 							</For>
 							<ThemeSwitcher />
 						</ul>
@@ -67,7 +71,7 @@ export default function Header() {
 				<nav class='basis-full flex-shrink-0 flex-grow-0 p-3 md:hidden'>
 					<ul class='flex flex-col'>
 						<For each={navigations}>
-							{renderMobileNav}
+							{MobileNav}
 						</For>
 						<ThemeSwitcher />
 					</ul>
