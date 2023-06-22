@@ -13,7 +13,7 @@ export default function About() {
 				<div class='flex flex-col-reverse gap-5 md:flex-row'>
 					<figure class='flex-1 flex justify-end'>
 						<img
-							class='max-w-full h-auto rounded-lg'
+							class='max-w-full h-auto rounded-lg max-h-[350px] w-full'
 							width={410}
 							height={350}
 							src={AboutImage}
@@ -21,7 +21,7 @@ export default function About() {
 						/>
 					</figure>
 					<div class='flex-1 flex flex-col gap-3'>
-						<p class='font-medium text-lg text-neutral-600 dark:text-neutral-400'>
+						<p class='font-medium text-lg text-neutral-600 w-3/4 dark:text-neutral-400'>
 							Lorem ipsum dolor sit
 							amet consectetur.
 							Tincidunt consectetur
