@@ -5,7 +5,11 @@ import LinkedInLogo from '~icons/eva/linkedin-outline'
 import DevToLogo from '~icons/material-symbols/logo-dev-outline'
 
 type Media = {
-	children: Component<{ width: number | string; height: number | string }>
+	children: Component<{
+		class?: string
+		width?: number | string
+		height?: number | string
+	}>
 	href: string
 }
 
@@ -24,7 +28,11 @@ export default function Media() {
 	function renderMediaLink({ children: Icon, href }: Media) {
 		return (
 			<A href={href} target='_blank'>
-				<Icon width={24} height={24} />
+				<Icon
+					class='text-neutral-500'
+					width={24}
+					height={24}
+				/>
 			</A>
 		)
 	}
