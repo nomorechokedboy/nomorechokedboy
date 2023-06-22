@@ -2,25 +2,25 @@
 	animation: glowing 8s ease-in-out infinite;
 }
 
-.test {
-	animation: glowing-text-1 8s ease-in-out infinite;
-	background: linear-gradient(165deg, #007cf0, #00dfd8);
-	-webkit-background-clip: text;
+.textOverlay {
+	display: block;
 	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
-.test1 {
-	animation: glowing-text-1 8s ease-in-out infinite;
-	background: linear-gradient(165deg, #7928ca, #ff0080);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.textOverlay1 {
+	background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+	animation: animated-gradient-text-1 8s ease-in-out infinite;
 }
 
-.test2 {
-	animation: glowing-text-1 8s ease-in-out infinite;
-	background: linear-gradient(165deg, #ff4d4d, #f9cb28);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.textOverlay2 {
+	background-image: linear-gradient(90deg, #7928ca, #ff0080);
+	animation: animated-gradient-text-2 8s ease-in-out infinite;
+}
+
+.textOverlay3 {
+	background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+	animation: animated-gradient-text-3 8s ease-in-out infinite;
 }
 
 @keyframes glowing {
@@ -35,23 +35,42 @@
 	}
 }
 
-@keyframes glowing-text-1 {
+@keyframes animated-gradient-text-1 {
+	0%,
+	16.667%,
+	100% {
+		opacity: 1;
+	}
+
+	33.333%,
+	83.333% {
+		opacity: 0;
+	}
+}
+
+@keyframes animated-gradient-text-2 {
+	0%,
+	16.667%,
+	66.667%,
+	100% {
+		opacity: 0;
+	}
+
+	33.333%,
+	50% {
+		opacity: 1;
+	}
+}
+
+@keyframes animated-gradient-text-3 {
+	0%,
 	50%,
 	100% {
-		-webkit-text-fill-color: black;
+		opacity: 0;
 	}
-}
 
-@keyframes glowing-text-2 {
-	0%,
-	100% {
-		-webkit-text-fill-color: black;
-	}
-}
-
-@keyframes glowing-text-3 {
-	0%,
-	50% {
-		-webkit-text-fill-color: black;
+	66.667%,
+	83.333% {
+		opacity: 1;
 	}
 }

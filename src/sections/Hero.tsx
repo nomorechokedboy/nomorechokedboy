@@ -38,11 +38,40 @@ export default function Hero() {
 	]
 	return (
 		<section class='w-full'>
-			<div class='w-full max-w-screen-2xl flex flex-col gap-5 p-5 md:py-40 md:px-0 md:mx-auto md:gap-28'>
+			<div class='w-full max-w-screen-2xl flex flex-col gap-5 p-5 md:py-40 lg:px-0 md:mx-auto md:gap-28'>
 				<div class='flex flex-col-reverse md:flex-row gap-5'>
 					<div class='flex flex-col gap-5 md:flex-1'>
-						<h2 class='font-bold text-5xl text-black dark:text-white'>
-							Fullstack Developer
+						<h2 class='flex flex-col font-bold select-none text-5xl text-black dark:text-white md:items-center md:flex-row md:gap-3'>
+							<div class='flex items-center'>
+								<span class='relative block'>
+									<p>
+										Full
+									</p>
+									<p
+										class={`absolute top-0 left-0 w-full h-full opacity-100 ${styles.textOverlay} ${styles.textOverlay1}`}
+									>
+										Full
+									</p>
+								</span>
+								<span class='relative block'>
+									<p>
+										stack
+									</p>
+									<p
+										class={`absolute top-0 left-0 w-full h-full opacity-100 ${styles.textOverlay} ${styles.textOverlay2}`}
+									>
+										stack
+									</p>
+								</span>
+							</div>
+							<span class='relative block h-full'>
+								<p>Developer</p>
+								<p
+									class={`absolute top-0 left-0 w-full h-[67px] opacity-100 ${styles.textOverlay} ${styles.textOverlay3}`}
+								>
+									Developer
+								</p>
+							</span>
 						</h2>
 						<p class='font-medium text-lg text-neutral-600 dark:text-neutral-400'>
 							Hi, I’m Le Ho Hai Duong.
@@ -68,7 +97,7 @@ export default function Hero() {
 						<img
 							class='rounded-full bg-gradient-to-tr from-neutral-200 to-neutral-600 max-w-full h-auto'
 							src={AvatarImage}
-							alt='This is my picture'
+							alt='This is me'
 						/>
 					</div>
 				</div>
