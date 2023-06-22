@@ -1,4 +1,4 @@
-import { For } from 'solid-js'
+import { For, Signal } from 'solid-js'
 import GoLogo from '~/assets/go.png'
 import HtmlLogo from '~/assets/html.png'
 import KubernetesLogo from '~/assets/kubernetes.png'
@@ -21,6 +21,15 @@ function LanguagesAndTechnologies({ alt, src }: Logo) {
 			height='64'
 			src={src}
 			alt={alt}
+		/>
+	)
+}
+
+function GradientBackgrounds(_: unknown, i: Signal<number>[0]) {
+	const className = `gradientButton${i() + 1}`
+	return (
+		<span
+			class={`absolute top-0 left-0 -z-10 w-full h-full rounded-lg transition ${styles[className]}`}
 		/>
 	)
 }
@@ -83,9 +92,15 @@ export default function Hero() {
 						<Media />
 						<div>
 							<button class='relative rounded-lg text-lg font-medium text-black dark:text-white'>
-								<span
-									class={`absolute top-0 left-0 -z-10 w-full h-full rounded-lg ${styles.gradientButton}`}
-								/>
+								<For
+									each={Array(
+										3
+									)}
+								>
+									{
+										GradientBackgrounds
+									}
+								</For>
 								<span class='border border-transparent bg-white dark:bg-neutral-900 hover:bg-transparent hover:text-white w-full h-full block px-10 py-2 bg-clip-padding rounded-lg shadow-[0_4px_4px_0] shadow-white/10'>
 									Contact
 									me

@@ -1,5 +1,16 @@
-.gradientButton {
-	animation: glowing 8s ease-in-out infinite;
+.gradientButton1 {
+	animation: glowing1 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #007cf0, #00dfd8);
+}
+
+.gradientButton2 {
+	animation: glowing2 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #7928ca, #ff0080);
+}
+
+.gradientButton3 {
+	animation: glowing3 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #ff4d4d, #f9cb28);
 }
 
 .textOverlay {
@@ -9,29 +20,54 @@
 }
 
 .textOverlay1 {
-	background-image: linear-gradient(90deg, #007cf0, #00dfd8);
 	animation: animated-gradient-text-1 8s ease-in-out infinite;
+	background-image: linear-gradient(90deg, #007cf0, #00dfd8);
 }
 
 .textOverlay2 {
-	background-image: linear-gradient(90deg, #7928ca, #ff0080);
 	animation: animated-gradient-text-2 8s ease-in-out infinite;
+	background-image: linear-gradient(90deg, #7928ca, #ff0080);
 }
 
 .textOverlay3 {
-	background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
 	animation: animated-gradient-text-3 8s ease-in-out infinite;
+	background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
 }
 
-@keyframes glowing {
-	0% {
-		background: linear-gradient(165deg, #007cf0, #00dfd8);
-	}
-	50% {
-		background: linear-gradient(165deg, #7928ca, #ff0080);
-	}
+@keyframes glowing1 {
+	0%,
+	16.667%,
 	100% {
-		background: linear-gradient(165deg, #ff4d4d, #f9cb28);
+		opacity: 1;
+	}
+	33.333%,
+	83.333% {
+		opacity: 0;
+	}
+}
+
+@keyframes glowing2 {
+	0%,
+	16.667%,
+	66.667%,
+	100% {
+		opacity: 0;
+	}
+	33.333%,
+	50% {
+		opacity: 1;
+	}
+}
+
+@keyframes glowing3 {
+	0%,
+	50%,
+	100% {
+		opacity: 0;
+	}
+	66.667%,
+	83.333% {
+		opacity: 1;
 	}
 }
 
