@@ -1,3 +1,7 @@
+import { inject } from '@vercel/analytics'
 import { mount, StartClient } from 'solid-start/entry-client'
 
-mount(() => <StartClient />, document)
+mount(() => {
+	inject()
+	return <StartClient />
+}, document)
