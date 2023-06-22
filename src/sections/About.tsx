@@ -10,9 +10,9 @@ export default function About() {
 				subTitle='My introduction'
 			/>
 			<div class='flex flex-col-reverse gap-5 md:flex-row'>
-				<figure class='flex-1'>
+				<figure class='flex-1 flex justify-end'>
 					<img
-						class='max-w-full h-auto'
+						class='max-w-full h-auto rounded-lg'
 						width={410}
 						height={350}
 						src={AboutImage}
@@ -34,7 +34,7 @@ export default function About() {
 					</p>
 					<div>
 						<button class='bg-neutral-900 px-5 py-2 rounded-lg dark:bg-white'>
-							<div class='flex items-center gap-2 justify-center'>
+							<div class='flex items-center gap-2 justify-center text-white dark:text-neutral-950'>
 								<DownloadIcon
 									width={
 										24
@@ -43,7 +43,7 @@ export default function About() {
 										24
 									}
 								/>
-								<span class='text-white text-lg font-medium dark:text-neutral-950'>
+								<span class='text-lg font-medium'>
 									Download
 									CV
 								</span>
