@@ -1,5 +1,5 @@
-import { createEffect, createSignal, For, JSX, Show } from 'solid-js'
-import { A, useLocation } from 'solid-start'
+import { createSignal, For, JSX, Show } from 'solid-js'
+import { A } from 'solid-start'
 import ThemeSwitcher from '~/components/ThemeSwitcher'
 import Burger from './components/Burger'
 
@@ -33,10 +33,10 @@ export default function Header() {
 
 	return (
 		<header
-			class='flex flex-col text-base text-[#2d2e32] dark:text-[#ededed]'
+			class='flex flex-col text-base text-[#2d2e32] dark:text-[#ededed] sticky top-0 z-40'
 			classList={{ 'h-screen': opened() }}
 		>
-			<div class='w-full shadow-[rgba(0,_0,_0,_0.1)_0px_-1px_0px_0px_inset] dark:shadow-[rgba(255,_255,_255,_0.1)_0px_-1px_0px_0px_inset] sticky top-0 bg-white/80 dark:bg-black/50 before:absolute before:inset-0 before:-z-10 before:backdrop-saturate-[180] before:backdrop-blur-sm'>
+			<div class='w-full shadow-[rgba(0,_0,_0,_0.1)_0px_-1px_0px_0px_inset] dark:shadow-[rgba(255,_255,_255,_0.1)_0px_-1px_0px_0px_inset] bg-white/80 dark:bg-black/50 before:absolute before:inset-0 before:-z-10 before:backdrop-blur-sm'>
 				<div class='flex items-center bg-transparent max-w-screen-2xl w-full mx-auto p-3'>
 					<nav class='flex-1 py-2'>
 						<A href='/'>

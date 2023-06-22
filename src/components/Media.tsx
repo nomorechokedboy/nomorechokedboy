@@ -27,7 +27,7 @@ export default function Media() {
 	]
 	function renderMediaLink({ children: Icon, href }: Media) {
 		return (
-			<A href={href} target='_blank'>
+			<A class='p-x' href={href} target='_blank'>
 				<Icon
 					class='text-neutral-500'
 					width={24}

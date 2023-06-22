@@ -19,6 +19,7 @@ import {
 import Header from '~/Header'
 import '~/root.css'
 import { themeStore } from '~/stores'
+import Footer from './Footer'
 
 export default function Root() {
 	const { theme } = themeStore
@@ -32,16 +33,14 @@ export default function Root() {
 					content='width=device-width, initial-scale=1'
 				/>
 			</Head>
-			<Body class='bg-white dark:bg-[#111] relative'>
+			<Body class='bg-white dark:bg-black relative'>
 				<Suspense>
 					<ErrorBoundary>
 						<Header />
-						<div class='max-w-screen-2xl w-full mx-auto'>
-							<Routes>
-								<FileRoutes />
-							</Routes>
-						</div>
-						<footer>Footer</footer>
+						<Routes>
+							<FileRoutes />
+						</Routes>
+						<Footer />
 					</ErrorBoundary>
 				</Suspense>
 				<Scripts />
