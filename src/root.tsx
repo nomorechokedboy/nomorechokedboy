@@ -23,10 +23,13 @@ import Footer from './Footer'
 
 export default function Root() {
 	const { theme } = themeStore
+
 	return (
 		<Html class={theme()} lang='en'>
 			<Head>
-				<Title>SolidStart - With TailwindCSS</Title>
+				<Title>
+					Le Ho Hai Duong | Fullstack Developer
+				</Title>
 				<Meta charset='utf-8' />
 				<Meta
 					name='viewport'

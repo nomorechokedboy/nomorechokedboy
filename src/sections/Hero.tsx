@@ -13,7 +13,7 @@ import styles from './Hero.module.css'
 
 type Logo = { src: string; alt: string }
 
-function renderLAT({ alt, src }: Logo) {
+function LanguagesAndTechnologies({ alt, src }: Logo) {
 	return (
 		<img
 			class='rounded-full bg-white shadow-[0_0_10px] shadow-black/10 dark:shadow-white/30 max-w-full h-auto'
@@ -110,7 +110,9 @@ export default function Hero() {
 								languagesAndTechnologies
 							}
 						>
-							{renderLAT}
+							{
+								LanguagesAndTechnologies
+							}
 						</For>
 					</div>
 				</div>

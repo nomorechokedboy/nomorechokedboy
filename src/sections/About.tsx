@@ -5,7 +5,7 @@ import DownloadIcon from '~icons/line-md/download-loop'
 export default function About() {
 	return (
 		<section class='w-full'>
-			<div class='flex flex-col gap-5 p-5 md:py-10 md:px-0 md:mx-auto max-w-screen-2xl'>
+			<div class='flex flex-col gap-5 p-5 md:py-10 lg:px-0 md:mx-auto max-w-screen-2xl'>
 				<SectionHeader
 					title='About me'
 					subTitle='My introduction'
@@ -21,7 +21,7 @@ export default function About() {
 						/>
 					</figure>
 					<div class='flex-1 flex flex-col gap-3'>
-						<p class='font-medium text-lg text-neutral-600 w-3/4 dark:text-neutral-400'>
+						<p class='font-medium text-lg text-neutral-600 dark:text-neutral-400'>
 							Lorem ipsum dolor sit
 							amet consectetur.
 							Tincidunt consectetur
