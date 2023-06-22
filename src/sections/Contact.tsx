@@ -5,7 +5,7 @@ import EmailIcon from '~icons/line-md/email-twotone'
 
 export default function Contact() {
 	return (
-		<section class='p-5'>
+		<section class='p-5 md:px-0 md:py-10'>
 			<div class='flex flex-col gap-5'>
 				<SectionHeader
 					title='Contact me'

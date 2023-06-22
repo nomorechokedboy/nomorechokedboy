@@ -4,7 +4,7 @@ import DownloadIcon from '~icons/line-md/download-loop'
 
 export default function About() {
 	return (
-		<section class='flex flex-col gap-5 p-5'>
+		<section class='flex flex-col gap-5 p-5 md:py-10 md:px-0'>
 			<SectionHeader
 				title='About me'
 				subTitle='My introduction'

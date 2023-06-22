@@ -36,7 +36,7 @@ export default function Hero() {
 		)
 	}
 	return (
-		<section class='w-full flex flex-col gap-5 p-5 md:pt-40 md:gap-10'>
+		<section class='w-full flex flex-col gap-5 p-5 md:py-40 md:px-0 md:gap-28'>
 			<div class='flex flex-col-reverse md:flex-row gap-5'>
 				<div class='flex flex-col gap-5 md:flex-1'>
 					<h2 class='font-bold text-5xl text-black dark:text-white'>
@@ -68,7 +68,7 @@ export default function Hero() {
 					/>
 				</div>
 			</div>
-			<div class='flex flex-col md:flex-row md:items-center gap-5 md:justify-center md:gap-10 font-medium text-lg text-black dark:text-neutral-100'>
+			<div class='flex flex-col md:flex-row md:items-center gap-10 md:justify-center font-medium text-lg text-black dark:text-neutral-100'>
 				<p>Languages and Technologies</p>
 				<hr class='h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-50 md:h-8 md:w-0.5' />
 				<div class='grid grid-cols-4 gap-2 place-items-center md:gap-4 md:grid-cols-8'>
