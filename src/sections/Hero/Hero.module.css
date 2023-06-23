@@ -34,6 +34,28 @@
 	background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
 }
 
+.morphImage {
+	animation: morph 8s ease-in-out infinite;
+	border-radius: 60% 40% 70% 30% / 75% 70% 30% 25%;
+}
+
+.gradientShadow1 {
+	animation: glowing1 8s ease-in-out infinite,
+		morph 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #007cf0, #00dfd8);
+}
+
+.gradientShadow2 {
+	animation: glowing2 8s ease-in-out infinite,
+		morph 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #7928ca, #ff0080);
+}
+
+.gradientShadow3 {
+	animation: glowing3 8s ease-in-out infinite,
+		morph 8s ease-in-out infinite;
+	background: linear-gradient(165deg, #ff4d4d, #f9cb28);
+}
 @keyframes glowing1 {
 	0%,
 	16.667%,
@@ -109,11 +131,6 @@
 	83.333% {
 		opacity: 1;
 	}
-}
-
-.morphImage {
-	animation: morph 8s ease-in-out infinite;
-	border-radius: 60% 40% 70% 30% / 75% 70% 30% 25%;
 }
 
 @keyframes morph {

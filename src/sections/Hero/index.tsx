@@ -11,6 +11,7 @@ import TailwindCssLogo from '~/assets/tailwind.png'
 import TsLogo from '~/assets/ts.png'
 import Media from '~/components/Media'
 import GradientBackgrounds from './GradientBackgrounds'
+import GradientShadow from './GradientShadow'
 import styles from './Hero.module.css'
 import LanguagesAndTechnologies from './LanguagesAndTechnologies'
 
@@ -93,19 +94,28 @@ export default function Hero() {
 						</div>
 					</div>
 					<div class='flex-1 grid place-items-center'>
-						<figure
-							class={`rounded-full bg-gradient-to-tr from-neutral-200 to-neutral-600 overflow-hidden transition-all ${styles.morphImage}`}
-						>
-							<img
-								class='max-w-full h-auto'
-								width={500}
-								height={500}
-								src={
-									AvatarImage
-								}
-								alt='This is me'
-							/>
-						</figure>
+						<div class='relative'>
+							<For each={Array(3)}>
+								{GradientShadow}
+							</For>
+							<figure
+								class={`rounded-full bg-gradient-to-tr from-neutral-200 to-neutral-600 transition-all overflow-hidden ${styles.morphImage}`}
+							>
+								<img
+									class='max-w-full h-auto'
+									width={
+										500
+									}
+									height={
+										500
+									}
+									src={
+										AvatarImage
+									}
+									alt='This is me'
+								/>
+							</figure>
+						</div>
 					</div>
 				</div>
 				<div class='flex flex-col md:flex-row md:items-center gap-10 md:justify-center font-medium text-lg text-black dark:text-neutral-100'>
