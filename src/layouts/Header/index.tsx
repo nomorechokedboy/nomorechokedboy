@@ -1,36 +1,27 @@
 import { createSignal, For, JSX, Show } from 'solid-js'
 import { A } from 'solid-start'
+import Burger from '~/components/Burger'
 import ThemeSwitcher from '~/components/ThemeSwitcher'
-import Burger from './components/Burger'
-
-type Navigation = { href: string; children: JSX.Element }
-
-function MobileNav({ href, children }: Navigation) {
-	return (
-		<li class='py-3 border-b border-neutral-200'>
-			<A href={href}>{children}</A>
-		</li>
-	)
-}
-
-function Navigations({ href, children }: Navigation) {
-	return (
-		<li>
-			<A href={href}>{children}</A>
-		</li>
-	)
-}
+import MobileNav, { MobileNavProps } from './MobileNav'
+import Navigation, { NavigationProps } from './Navigation'
 
 export default function Header() {
 	const [opened, setOpened] = createSignal(false)
-	const navigations: Navigation[] = [
+	const navigations: NavigationProps[] = [
 		{ href: '#home', children: 'Home' },
 		{ href: '#about', children: 'About' },
 		{ href: '#projects', children: 'Projects' },
 		{ href: '#contact', children: 'Contact' }
 	]
+	const mobileNavigations: MobileNavProps[] = navigations.map((el) => ({
+		...el,
+		onClick: handleMobileNavClick
+	}))
 	function handleBurgerClick() {
 		setOpened(!opened())
+	}
+	function handleMobileNavClick() {
+		setOpened(false)
 	}
 
 	return (
@@ -60,7 +51,7 @@ export default function Header() {
 						</div>
 						<ul class='hidden justify-end items-center gap-10 md:flex'>
 							<For each={navigations}>
-								{Navigations}
+								{Navigation}
 							</For>
 							<ThemeSwitcher />
 						</ul>
@@ -70,10 +61,12 @@ export default function Header() {
 			<Show when={opened()}>
 				<nav class='basis-full flex-shrink-0 flex-grow-0 p-3 md:hidden'>
 					<ul class='flex flex-col'>
-						<For each={navigations}>
+						<For each={mobileNavigations}>
 							{MobileNav}
 						</For>
-						<ThemeSwitcher />
+						<li class='py-3'>
+							<ThemeSwitcher />
+						</li>
 					</ul>
 				</nav>
 			</Show>

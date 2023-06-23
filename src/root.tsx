@@ -16,10 +16,10 @@ import {
 	Scripts,
 	Title
 } from 'solid-start'
-import Header from '~/Header'
+import Header from '~/layouts/Header'
 import '~/root.css'
 import { themeStore } from '~/stores'
-import Footer from './Footer'
+import Footer from './layouts/Footer'
 
 export default function Root() {
 	const { theme } = themeStore
