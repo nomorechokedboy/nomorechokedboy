@@ -1,4 +1,5 @@
 import { For } from 'solid-js'
+import { A } from 'solid-start'
 import GoLogo from '~/assets/go.png'
 import HtmlLogo from '~/assets/html.png'
 import KubernetesLogo from '~/assets/kubernetes.png'
@@ -72,21 +73,23 @@ export default function Hero() {
 						</p>
 						<Media />
 						<div>
-							<button class='relative rounded-lg text-lg font-medium text-black dark:text-white'>
-								<For
-									each={Array(
-										3
-									)}
-								>
-									{
-										GradientBackgrounds
-									}
-								</For>
-								<span class='border border-transparent bg-white dark:bg-neutral-900 hover:bg-transparent hover:text-white w-full h-full block px-10 py-2 bg-clip-padding rounded-lg shadow-[0_4px_4px_0] shadow-white/10'>
-									Contact
-									me
-								</span>
-							</button>
+							<A href='#contact'>
+								<button class='relative rounded-lg text-lg font-medium text-black dark:text-white'>
+									<For
+										each={Array(
+											3
+										)}
+									>
+										{
+											GradientBackgrounds
+										}
+									</For>
+									<span class='border border-transparent bg-white dark:bg-neutral-900 hover:bg-transparent hover:text-white w-full h-full block px-10 py-2 bg-clip-padding rounded-lg shadow-[0_4px_4px_0] shadow-white/10'>
+										Contact
+										me
+									</span>
+								</button>
+							</A>
 						</div>
 					</div>
 					<div class='flex-1 grid place-items-center'>

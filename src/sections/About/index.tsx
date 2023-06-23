@@ -23,18 +23,48 @@ export default function About() {
 					</figure>
 					<div class='flex-1 flex flex-col gap-3'>
 						<p class='font-medium text-lg text-neutral-600 dark:text-neutral-400'>
-							Lorem ipsum dolor sit
-							amet consectetur.
-							Tincidunt consectetur
-							urna eget posuere at
-							integer arcu tempor.
-							Faucibus aenean in
-							aliquet ut consectetur.
-							Scelerisque pellentesque
-							cras diam purus. Nec ut
-							proin scelerisque
-							faucibus vestibulum eu
-							ipsum sit semper.
+							I am{' '}
+							<strong>
+								Le Ho Hai Duong
+							</strong>
+							, and I am currently
+							striving to become a
+							professional{' '}
+							<strong>
+								Software
+								Engineer
+							</strong>
+							. I am also known as a{' '}
+							<i>rustacean</i>, a{' '}
+							<i>gopher</i>, and a{' '}
+							<i>
+								Frontend tech
+								enthusiast
+							</i>
+							. I spend most of my
+							time coding{' '}
+							<b>
+								<i>
+									outstanding
+									projects
+								</i>
+							</b>{' '}
+							and exploring{' '}
+							<code>
+								rust/go/typescript
+							</code>{' '}
+							+{' '}
+							<strong>
+								<i>
+									amazing
+									things
+									about
+									the
+									programming
+									world
+								</i>
+							</strong>
+							.
 						</p>
 						<div>
 							<A
