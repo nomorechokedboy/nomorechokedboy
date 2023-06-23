@@ -121,7 +121,7 @@ export default function Hero() {
 				<div class='flex flex-col md:flex-row md:items-center gap-10 md:justify-center font-medium text-lg text-black dark:text-neutral-100'>
 					<p>Languages and Technologies</p>
 					<hr class='h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-50 md:h-8 md:w-0.5' />
-					<div class='grid grid-cols-4 gap-2 place-items-center md:gap-4 md:grid-cols-8'>
+					<div class='grid grid-cols-4 gap-2 place-items-center md:gap-6 md:grid-cols-8'>
 						<For
 							each={
 								languagesAndTechnologies
