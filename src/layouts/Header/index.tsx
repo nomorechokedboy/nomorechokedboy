@@ -1,4 +1,4 @@
-import { createSignal, For, JSX, Show } from 'solid-js'
+import { createSignal, For, Show } from 'solid-js'
 import { A } from 'solid-start'
 import Burger from '~/components/Burger'
 import ThemeSwitcher from '~/components/ThemeSwitcher'
@@ -32,15 +32,15 @@ export default function Header() {
 			}}
 		>
 			<div class='w-full shadow-[rgba(0,_0,_0,_0.1)_0px_-1px_0px_0px_inset] dark:shadow-[rgba(255,_255,_255,_0.1)_0px_-1px_0px_0px_inset] bg-white/80 dark:bg-black/50 before:absolute before:inset-0 before:-z-10 before:backdrop-blur-sm'>
-				<div class='flex items-center bg-transparent max-w-screen-2xl w-full mx-auto p-3'>
-					<nav class='flex-1 py-2'>
+				<div class='flex items-center justify-between bg-transparent max-w-screen-2xl w-full mx-auto p-3'>
+					<nav class='py-2'>
 						<A href='/'>
-							<h1 class='font-bold'>
+							<h1 class='font-bold w-fit'>
 								LeHoHaiDuong.id.vn
 							</h1>
 						</A>
 					</nav>
-					<nav class='flex-1 font-medium'>
+					<nav class='w-1/2 font-medium'>
 						<div class='flex items-center justify-end md:hidden'>
 							<Burger
 								opened={opened()}

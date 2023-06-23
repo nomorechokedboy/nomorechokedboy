@@ -3,10 +3,10 @@ import { A } from 'solid-start'
 
 export type NavigationProps = { href: string; children: JSX.Element }
 
-export default function Navigation({ href, children }: NavigationProps) {
+export default function Navigation(props: NavigationProps) {
 	return (
 		<li>
-			<A href={href}>{children}</A>
+			<A href={props.href}>{props.children}</A>
 		</li>
 	)
 }
