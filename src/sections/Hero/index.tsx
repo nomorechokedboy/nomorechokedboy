@@ -1,4 +1,4 @@
-import { For, Signal } from 'solid-js'
+import { For } from 'solid-js'
 import GoLogo from '~/assets/go.png'
 import HtmlLogo from '~/assets/html.png'
 import KubernetesLogo from '~/assets/kubernetes.png'
@@ -27,7 +27,7 @@ export default function Hero() {
 		{ alt: 'Kubernetes', src: KubernetesLogo }
 	]
 	return (
-		<section class='w-full' id='home'>
+		<section class='w-full scroll-mt-16' id='home'>
 			<div class='w-full max-w-screen-2xl flex flex-col gap-5 p-5 md:py-40 lg:px-0 md:mx-auto md:gap-28'>
 				<div class='flex flex-col-reverse md:flex-row gap-5'>
 					<div class='flex flex-col gap-5 md:flex-1'>
