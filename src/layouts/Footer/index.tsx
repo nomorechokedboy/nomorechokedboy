@@ -1,5 +1,5 @@
-import Media from './components/Media'
-import ThemeSwitcher from './components/ThemeSwitcher'
+import Media from '~/components/Media'
+import ThemeSwitcher from '~/components/ThemeSwitcher'
 
 export default function Footer() {
 	return (

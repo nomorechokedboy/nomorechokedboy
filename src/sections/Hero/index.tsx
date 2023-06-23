@@ -1,4 +1,4 @@
-import { For, Signal } from 'solid-js'
+import { For } from 'solid-js'
 import GoLogo from '~/assets/go.png'
 import HtmlLogo from '~/assets/html.png'
 import KubernetesLogo from '~/assets/kubernetes.png'
@@ -9,30 +9,11 @@ import SvelteLogo from '~/assets/svelte.png'
 import TailwindCssLogo from '~/assets/tailwind.png'
 import TsLogo from '~/assets/ts.png'
 import Media from '~/components/Media'
+import GradientBackgrounds from './GradientBackgrounds'
 import styles from './Hero.module.css'
+import LanguagesAndTechnologies from './LanguagesAndTechnologies'
 
 type Logo = { src: string; alt: string }
-
-function LanguagesAndTechnologies({ alt, src }: Logo) {
-	return (
-		<img
-			class='rounded-full bg-white shadow-[0_0_10px] shadow-black/10 dark:shadow-white/30 max-w-full h-auto'
-			width='64'
-			height='64'
-			src={src}
-			alt={alt}
-		/>
-	)
-}
-
-function GradientBackgrounds(_: unknown, i: Signal<number>[0]) {
-	const className = `gradientButton${i() + 1}`
-	return (
-		<span
-			class={`absolute top-0 left-0 -z-10 w-full h-full rounded-lg transition ${styles[className]}`}
-		/>
-	)
-}
 
 export default function Hero() {
 	const languagesAndTechnologies: Logo[] = [
@@ -46,7 +27,7 @@ export default function Hero() {
 		{ alt: 'Kubernetes', src: KubernetesLogo }
 	]
 	return (
-		<section class='w-full'>
+		<section class='w-full scroll-mt-16' id='home'>
 			<div class='w-full max-w-screen-2xl flex flex-col gap-5 p-5 md:py-40 lg:px-0 md:mx-auto md:gap-28'>
 				<div class='flex flex-col-reverse md:flex-row gap-5'>
 					<div class='flex flex-col gap-5 md:flex-1'>

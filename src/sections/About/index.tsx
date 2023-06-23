@@ -1,10 +1,11 @@
+import { A } from 'solid-start'
 import AboutImage from '~/assets/about.gif'
 import SectionHeader from '~/components/SectionHeader'
 import DownloadIcon from '~icons/line-md/download-loop'
 
 export default function About() {
 	return (
-		<section class='w-full'>
+		<section class='w-full scroll-mt-16' id='about'>
 			<div class='flex flex-col gap-5 p-5 md:py-10 lg:px-0 md:mx-auto max-w-screen-2xl'>
 				<SectionHeader
 					title='About me'
@@ -36,22 +37,27 @@ export default function About() {
 							ipsum sit semper.
 						</p>
 						<div>
-							<button class='bg-neutral-900 px-5 py-2 rounded-lg dark:bg-white'>
-								<div class='flex items-center gap-2 justify-center text-white dark:text-neutral-950'>
-									<DownloadIcon
-										width={
-											24
-										}
-										height={
-											24
-										}
-									/>
-									<span class='text-lg font-medium'>
-										Download
-										CV
-									</span>
-								</div>
-							</button>
+							<A
+								href=''
+								download='/resumes/Resume-v2.0.pdf'
+							>
+								<button class='bg-neutral-900 px-5 py-2 rounded-lg dark:bg-white'>
+									<div class='flex items-center gap-2 justify-center text-white dark:text-neutral-950'>
+										<DownloadIcon
+											width={
+												24
+											}
+											height={
+												24
+											}
+										/>
+										<span class='text-lg font-medium'>
+											Download
+											CV
+										</span>
+									</div>
+								</button>
+							</A>
 						</div>
 					</div>
 				</div>

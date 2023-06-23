@@ -1,28 +1,11 @@
-import { Component, For } from 'solid-js'
-import { A } from 'solid-start'
+import { For } from 'solid-js'
 import GithubLogo from '~icons/akar-icons/github-outline-fill'
 import LinkedInLogo from '~icons/eva/linkedin-outline'
 import DevToLogo from '~icons/material-symbols/logo-dev-outline'
-
-type Media = {
-	children: Component<{
-		class?: string
-		width?: number | string
-		height?: number | string
-	}>
-	href: string
-}
-
-function MediaLinks({ children: Icon, href }: Media) {
-	return (
-		<A class='p-x' href={href} target='_blank'>
-			<Icon class='text-neutral-500' width={24} height={24} />
-		</A>
-	)
-}
+import MediaLink, { MediaLinkProps } from './MediaLink'
 
 export default function Media() {
-	const media: Media[] = [
+	const media: MediaLinkProps[] = [
 		{
 			children: LinkedInLogo,
 			href: 'https://www.linkedin.com/in/le-ho-hai-duong-8b7382220'
@@ -35,7 +18,7 @@ export default function Media() {
 	]
 	return (
 		<div class='flex items-center gap-3'>
-			<For each={media}>{MediaLinks}</For>
+			<For each={media}>{MediaLink}</For>
 		</div>
 	)
 }
