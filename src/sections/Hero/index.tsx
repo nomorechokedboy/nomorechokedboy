@@ -93,11 +93,19 @@ export default function Hero() {
 						</div>
 					</div>
 					<div class='flex-1 grid place-items-center'>
-						<img
-							class='rounded-full bg-gradient-to-tr from-neutral-200 to-neutral-600 max-w-full h-auto'
-							src={AvatarImage}
-							alt='This is me'
-						/>
+						<figure
+							class={`rounded-full bg-gradient-to-tr from-neutral-200 to-neutral-600 overflow-hidden transition-all ${styles.morphImage}`}
+						>
+							<img
+								class='max-w-full h-auto'
+								width={500}
+								height={500}
+								src={
+									AvatarImage
+								}
+								alt='This is me'
+							/>
+						</figure>
 					</div>
 				</div>
 				<div class='flex flex-col md:flex-row md:items-center gap-10 md:justify-center font-medium text-lg text-black dark:text-neutral-100'>

@@ -110,3 +110,23 @@
 		opacity: 1;
 	}
 }
+
+.morphImage {
+	animation: morph 8s ease-in-out infinite;
+	border-radius: 60% 40% 70% 30% / 75% 70% 30% 25%;
+}
+
+@keyframes morph {
+	0%,
+	100% {
+		border-radius: 60% 40% 70% 30% / 75% 70% 30% 25%;
+	}
+	33.333%,
+	50% {
+		border-radius: 51% 49% 43% 57% / 47% 83% 17% 53%;
+	}
+	66.667%,
+	83.333% {
+		border-radius: 87% 13% 84% 16% / 24% 76% 24% 76%;
+	}
+}
