@@ -71,7 +71,7 @@ export default function About() {
 								href=''
 								download='/resumes/Resume-v2.0.pdf'
 							>
-								<button class='bg-neutral-900 px-5 py-2 rounded-lg dark:bg-white'>
+								<button class='bg-neutral-900 px-5 py-2 rounded-lg dark:bg-white active:translate-y-1'>
 									<div class='flex items-center gap-2 justify-center text-white dark:text-neutral-950'>
 										<DownloadIcon
 											width={

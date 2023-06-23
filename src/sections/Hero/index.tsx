@@ -74,7 +74,7 @@ export default function Hero() {
 						<Media />
 						<div>
 							<A href='#contact'>
-								<button class='relative rounded-lg text-lg font-medium text-black dark:text-white'>
+								<button class='relative rounded-lg text-lg font-medium text-black dark:text-white active:translate-y-1'>
 									<For
 										each={Array(
 											3
