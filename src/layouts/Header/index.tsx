@@ -36,7 +36,7 @@ export default function Header() {
 					<nav class='py-2'>
 						<A href='/'>
 							<h1 class='font-bold w-fit'>
-								LeHoHaiDuong.id.vn
+								LeHoHaiDuong.dev
 							</h1>
 						</A>
 					</nav>

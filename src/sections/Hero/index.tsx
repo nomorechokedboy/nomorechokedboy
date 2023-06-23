@@ -11,6 +11,7 @@ import TailwindCssLogo from '~/assets/tailwind.png'
 import TsLogo from '~/assets/ts.png'
 import Media from '~/components/Media'
 import GradientBackgrounds from './GradientBackgrounds'
+import GradientShadow from './GradientShadow'
 import styles from './Hero.module.css'
 import LanguagesAndTechnologies from './LanguagesAndTechnologies'
 
@@ -74,7 +75,7 @@ export default function Hero() {
 						<Media />
 						<div>
 							<A href='#contact'>
-								<button class='relative rounded-lg text-lg font-medium text-black dark:text-white'>
+								<button class='relative rounded-lg text-lg font-medium text-black dark:text-white active:translate-y-1'>
 									<For
 										each={Array(
 											3
@@ -93,17 +94,34 @@ export default function Hero() {
 						</div>
 					</div>
 					<div class='flex-1 grid place-items-center'>
-						<img
-							class='rounded-full bg-gradient-to-tr from-neutral-200 to-neutral-600 max-w-full h-auto'
-							src={AvatarImage}
-							alt='This is me'
-						/>
+						<div class='relative'>
+							<For each={Array(3)}>
+								{GradientShadow}
+							</For>
+							<figure
+								class={`rounded-full bg-gradient-to-tr from-neutral-200 to-neutral-600 transition-all overflow-hidden ${styles.morphImage}`}
+							>
+								<img
+									class='max-w-full h-auto'
+									width={
+										500
+									}
+									height={
+										500
+									}
+									src={
+										AvatarImage
+									}
+									alt='This is me'
+								/>
+							</figure>
+						</div>
 					</div>
 				</div>
 				<div class='flex flex-col md:flex-row md:items-center gap-10 md:justify-center font-medium text-lg text-black dark:text-neutral-100'>
 					<p>Languages and Technologies</p>
 					<hr class='h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-50 md:h-8 md:w-0.5' />
-					<div class='grid grid-cols-4 gap-2 place-items-center md:gap-4 md:grid-cols-8'>
+					<div class='grid grid-cols-4 gap-2 place-items-center md:gap-6 md:grid-cols-8'>
 						<For
 							each={
 								languagesAndTechnologies

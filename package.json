@@ -38,7 +38,7 @@
 		"node": ">=16"
 	},
 	"lint-staged": {
-		"*.{json,yml,yaml}": [
+		"*.{json,yml,yaml,css}": [
 			"prettier --write"
 		],
 		"!(*.{spec,test}.{ts,js}|**/ignored.ts)*.{ts,tsx}": [

@@ -12,12 +12,14 @@ export type MediaLinkProps = {
 
 export default function MediaLink(props: MediaLinkProps) {
 	return (
-		<A class='p-x' href={props.href} target='_blank'>
-			<props.children
-				class='text-neutral-500'
-				width={24}
-				height={24}
-			/>
+		<A href={props.href} target='_blank'>
+			<button class='p-x active:translate-y-1'>
+				<props.children
+					class='text-neutral-500'
+					width={24}
+					height={24}
+				/>
+			</button>
 		</A>
 	)
 }
