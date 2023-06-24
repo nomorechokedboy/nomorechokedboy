@@ -13,12 +13,12 @@ import Media from '~/components/Media'
 import GradientBackgrounds from './GradientBackgrounds'
 import GradientShadow from './GradientShadow'
 import styles from './Hero.module.css'
-import LanguagesAndTechnologies from './LanguagesAndTechnologies'
-
-type Logo = { src: string; alt: string }
+import LanguagesAndTechnologies, {
+	LanguageAndTechnologyProps
+} from './LanguagesAndTechnologies'
 
 export default function Hero() {
-	const languagesAndTechnologies: Logo[] = [
+	const languagesAndTechnologies: LanguageAndTechnologyProps[] = [
 		{ alt: 'Rust', src: RustLogo },
 		{ alt: 'Golang', src: GoLogo },
 		{ alt: 'Svelte Kit', src: SvelteLogo },

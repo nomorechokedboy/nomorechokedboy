@@ -8,13 +8,19 @@ export default function Media() {
 	const media: MediaLinkProps[] = [
 		{
 			children: LinkedInLogo,
-			href: 'https://www.linkedin.com/in/le-ho-hai-duong-8b7382220'
+			href: 'https://www.linkedin.com/in/le-ho-hai-duong-8b7382220',
+			title: 'Linkedin'
 		},
 		{
 			children: GithubLogo,
-			href: 'https://www.github.com/nomorechokedboy'
+			href: 'https://www.github.com/nomorechokedboy',
+			title: 'Github'
 		},
-		{ children: DevToLogo, href: 'https://dev.to/hadius' }
+		{
+			children: DevToLogo,
+			href: 'https://dev.to/hadius',
+			title: 'Dev.to'
+		}
 	]
 	return (
 		<div class='flex items-center gap-3'>
