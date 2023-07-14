@@ -47,7 +47,11 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Go           1 hr 58 mins    █████████▓░░░░░░░░░░░░░░░   39.14 %
+netrw        41 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.65 %
+YAML         29 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.68 %
+Bash         27 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.10 %
+JSON         20 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.83 %
 ```
 
 <!--END_SECTION:waka-->
