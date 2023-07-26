@@ -40,7 +40,7 @@ export default function Tooltip(props: TooltipProps) {
 			>
 				{props.children}
 			</div>
-			<Show when={true}>
+			<Show when={show()}>
 				<div
 					class={`dark:bg-white bg-[#111827] dark:text-black text-white p-2 rounded ${
 						show() ? 'block' : ''
@@ -53,7 +53,7 @@ export default function Tooltip(props: TooltipProps) {
 					}}
 				>
 					{props.label}
-					<Show when={props.withArrow ?? false}>
+					<Show when={false}>
 						<div
 							class={`absolute border-8 border-transparent border-t-[#111827] shadow dark:border-t-white w-0 h-0 ${position.placement}`}
 							ref={setArrowRef}
