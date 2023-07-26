@@ -85,7 +85,7 @@ export default function Hero() {
 											GradientBackgrounds
 										}
 									</For>
-									<span class='border border-transparent bg-white dark:bg-neutral-900 hover:bg-transparent hover:text-white w-full h-full block px-10 py-2 bg-clip-padding rounded-lg shadow-[0_4px_4px_0] shadow-white/10'>
+									<span class='border border-transparent bg-white dark:bg-neutral-900 dark:hover:bg-transparent hover:bg-transparent hover:text-white w-full h-full block px-10 py-2 bg-clip-padding rounded-lg shadow-[0_4px_4px_0] shadow-white/10'>
 										Contact
 										me
 									</span>
