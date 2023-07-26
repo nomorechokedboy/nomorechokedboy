@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
         '@commitlint/cli': ^17.6.5
         '@commitlint/config-conventional': ^17.6.5
+        '@floating-ui/dom': ^1.4.5
         '@fontsource/poppins': ^5.0.3
         '@iconify/json': ^2.2.81
         '@solidjs/meta': ^0.28.2
@@ -15,6 +16,7 @@ specifiers:
         prettier: ^2.8.8
         prettier-plugin-organize-imports: ^3.2.2
         prettier-plugin-tailwindcss: ^0.3.0
+        solid-floating-ui: ^0.2.1
         solid-js: ^1.7.2
         solid-start: ^0.2.26
         solid-start-node: ^0.2.19
@@ -26,10 +28,12 @@ specifiers:
         vite: ^4.1.4
 
 dependencies:
+        '@floating-ui/dom': 1.4.5
         '@fontsource/poppins': 5.0.3
         '@solidjs/meta': 0.28.4_solid-js@1.7.4
         '@solidjs/router': 0.8.2_solid-js@1.7.4
         '@vercel/analytics': 1.0.1
+        solid-floating-ui: 0.2.1_oibown6rgs4e35ihfc2hcjf43e
         solid-js: 1.7.4
         solid-start: 0.2.26_zqku6ztpz23ll6g6rel5hcnate
         solid-start-vercel: 0.2.26_op2b7qaexdmgfbq2nnh757zska
@@ -1986,6 +1990,22 @@ packages:
                 os: [win32]
                 requiresBuild: true
                 optional: true
+
+        /@floating-ui/core/1.3.1:
+                resolution:
+                        {
+                                integrity: sha512-Bu+AMaXNjrpjh41znzHqaz3r2Nr8hHuHZT6V2LBKMhyMl0FgKA62PNYbqnfgmzOhoWZj70Zecisbo4H1rotP5g==
+                        }
+                dev: false
+
+        /@floating-ui/dom/1.4.5:
+                resolution:
+                        {
+                                integrity: sha512-96KnRWkRnuBSSFbj0sFGwwOUd8EkiecINVl0O9wiZlZ64EkpyAOG3Xc2vKKNJmru0Z7RqWNymA+6b8OZqjgyyw==
+                        }
+                dependencies:
+                        '@floating-ui/core': 1.3.1
+                dev: false
 
         /@fontsource/poppins/5.0.3:
                 resolution:
@@ -5652,6 +5672,20 @@ packages:
                         ansi-styles: 6.2.1
                         is-fullwidth-code-point: 4.0.0
                 dev: true
+
+        /solid-floating-ui/0.2.1_oibown6rgs4e35ihfc2hcjf43e:
+                resolution:
+                        {
+                                integrity: sha512-ZWVigPZjisSY7GkAKzZpDoY6Eb0NWSakaF7tut5jkW0ls9BB/bk7Jhsxd8l0JoU3KaxYH15GYcpuM0fU06kc/A==
+                        }
+                engines: { node: '>=10' }
+                peerDependencies:
+                        '@floating-ui/dom': ^1.0
+                        solid-js: ^1.3
+                dependencies:
+                        '@floating-ui/dom': 1.4.5
+                        solid-js: 1.7.4
+                dev: false
 
         /solid-js/1.7.4:
                 resolution:

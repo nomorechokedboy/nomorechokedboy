@@ -1,4 +1,6 @@
-import { JSX, Show } from 'solid-js'
+import { arrow, autoPlacement, offset } from '@floating-ui/dom'
+import { useFloating } from 'solid-floating-ui'
+import { createSignal, JSX, Show } from 'solid-js'
 import styles from './index.module.css'
 
 type TooltipProps = {
@@ -21,20 +23,60 @@ type TooltipProps = {
 }
 
 export default function Tooltip(props: TooltipProps) {
-	const position = styles[props.position ?? 'top']
+	const [reference, setReference] = createSignal<HTMLElement>()
+	const [floating, setFloating] = createSignal<HTMLDivElement>()
+	const [show, setShow] = createSignal(false)
+	const [arrowRef, setArrowRef] = createSignal<HTMLElement>()
+	const position = useFloating(reference, floating, {
+		placement: 'top',
+		middleware: [offset(8)]
+	})
 	return (
-		<div class={styles.tooltip}>
+		<>
 			<div
-				class={`dark:bg-white bg-[#111827] dark:text-black text-white p-2 ${styles.tooltipContent} ${position} ${styles.show}`}
+				ref={setReference}
+				onMouseOver={() => setShow(true)}
+				onMouseLeave={() => setShow(false)}
 			>
-				{props.label}
+				{props.children}
 			</div>
-			<Show when={props.withArrow || false}>
+			<Show when={true}>
 				<div
-					class={`border-8 border-transparent border-t-[#111827] shadow dark:border-t-white w-0 h-0 ${styles.tooltipArrow} ${position} ${styles.show}`}
-				/>
+					class={`dark:bg-white bg-[#111827] dark:text-black text-white p-2 rounded ${
+						show() ? 'block' : ''
+					}`}
+					ref={setFloating}
+					style={{
+						position: position.strategy,
+						top: `${position.y ?? 0}px`,
+						left: `${position.x ?? 0}px`
+					}}
+				>
+					{props.label}
+					<Show when={props.withArrow ?? false}>
+						<div
+							class={`absolute border-8 border-transparent border-t-[#111827] shadow dark:border-t-white w-0 h-0 ${position.placement}`}
+							ref={setArrowRef}
+							style={{
+								top: `${
+									position
+										.middlewareData
+										.arrow
+										?.y ??
+									0
+								}px`,
+								left: `${
+									position
+										.middlewareData
+										.arrow
+										?.x ??
+									0
+								}px`
+							}}
+						/>
+					</Show>
+				</div>
 			</Show>
-			{props.children}
-		</div>
+		</>
 	)
 }
