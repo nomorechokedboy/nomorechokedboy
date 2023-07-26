@@ -1,7 +1,6 @@
 import { arrow, autoPlacement, offset } from '@floating-ui/dom'
 import { useFloating } from 'solid-floating-ui'
 import { createSignal, JSX, Show } from 'solid-js'
-import styles from './index.module.css'
 
 type TooltipProps = {
 	children: JSX.Element
@@ -29,7 +28,7 @@ export default function Tooltip(props: TooltipProps) {
 	const [arrowRef, setArrowRef] = createSignal<HTMLElement>()
 	const position = useFloating(reference, floating, {
 		placement: 'top',
-		middleware: [offset(8)]
+		middleware: [autoPlacement(), offset(8)]
 	})
 	return (
 		<>
