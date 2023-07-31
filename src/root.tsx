@@ -16,10 +16,8 @@ import {
 	Scripts,
 	Title
 } from 'solid-start'
-import Header from '~/layouts/Header'
 import '~/root.css'
 import { themeStore } from '~/stores'
-import Footer from './layouts/Footer'
 
 export default function Root() {
 	const { theme } = themeStore
@@ -39,11 +37,9 @@ export default function Root() {
 			<Body class='bg-white dark:bg-black relative'>
 				<Suspense>
 					<ErrorBoundary>
-						<Header />
 						<Routes>
 							<FileRoutes />
 						</Routes>
-						<Footer />
 					</ErrorBoundary>
 				</Suspense>
 				<Scripts />
