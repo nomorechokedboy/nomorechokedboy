@@ -27,7 +27,6 @@
 	"dependencies": {
 		"@floating-ui/dom": "^1.4.5",
 		"@fontsource/poppins": "^5.0.3",
-		"@pdfslick/solid": "^1.2.1",
 		"@solidjs/meta": "^0.28.2",
 		"@solidjs/router": "^0.8.2",
 		"@vercel/analytics": "^1.0.1",

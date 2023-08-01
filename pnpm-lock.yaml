@@ -6,7 +6,6 @@ specifiers:
         '@floating-ui/dom': ^1.4.5
         '@fontsource/poppins': ^5.0.3
         '@iconify/json': ^2.2.81
-        '@pdfslick/solid': ^1.2.1
         '@solidjs/meta': ^0.28.2
         '@solidjs/router': ^0.8.2
         '@vercel/analytics': ^1.0.1
@@ -32,7 +31,6 @@ specifiers:
 dependencies:
         '@floating-ui/dom': 1.4.5
         '@fontsource/poppins': 5.0.3
-        '@pdfslick/solid': 1.2.1_d5hjqkmfdmzwtcztrr6obdmsk4
         '@solidjs/meta': 0.28.4_solid-js@1.7.4
         '@solidjs/router': 0.8.2_solid-js@1.7.4
         '@vercel/analytics': 1.0.1
@@ -2177,40 +2175,6 @@ packages:
                         '@nodelib/fs.scandir': 2.1.5
                         fastq: 1.15.0
 
-        /@pdfslick/core/1.2.1_react@18.2.0:
-                resolution:
-                        {
-                                integrity: sha512-X3kivpclisCffLJE4GhhOcNjSweUmnKHvnF3jafws40qsCFy3UlJnusxgo+ikQ8bW6QkI73f5/CJitdpupRmkQ==
-                        }
-                dependencies:
-                        pdfjs-dist: 3.9.179
-                        zustand: 4.3.9_react@18.2.0
-                transitivePeerDependencies:
-                        - encoding
-                        - immer
-                        - react
-                        - supports-color
-                dev: false
-
-        /@pdfslick/solid/1.2.1_d5hjqkmfdmzwtcztrr6obdmsk4:
-                resolution:
-                        {
-                                integrity: sha512-xmoCG3vkKPH5t4/Gg+if0HQcm982tu658teRWCU4jlK2bBU/EWWyP1gDtJvp2yIIuucpZQBP7dzPV98EojqErw==
-                        }
-                peerDependencies:
-                        solid-js: '>=1.5.0'
-                dependencies:
-                        '@pdfslick/core': 1.2.1_react@18.2.0
-                        '@solid-primitives/resize-observer': 2.0.18_solid-js@1.7.4
-                        solid-js: 1.7.4
-                        zustand: 4.3.9_react@18.2.0
-                transitivePeerDependencies:
-                        - encoding
-                        - immer
-                        - react
-                        - supports-color
-                dev: false
-
         /@polka/url/1.0.0-next.21:
                 resolution:
                         {
@@ -2318,68 +2282,6 @@ packages:
                         {
                                 integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
                         }
-
-        /@solid-primitives/event-listener/2.2.13_solid-js@1.7.4:
-                resolution:
-                        {
-                                integrity: sha512-8GtVEq0ECZoa5Klo1jjfGPfwg0zVJ8TNnNkWu8FqRkh0CkhbhCVJAKwjleem9K/qL6zUDfJihLjhqGBTBbb+8w==
-                        }
-                peerDependencies:
-                        solid-js: ^1.6.12
-                dependencies:
-                        '@solid-primitives/utils': 6.2.0_solid-js@1.7.4
-                        solid-js: 1.7.4
-                dev: false
-
-        /@solid-primitives/resize-observer/2.0.18_solid-js@1.7.4:
-                resolution:
-                        {
-                                integrity: sha512-k4jTqa2hQc1HBLGUUSy69ziVJF2xlBzglUp2Saeor7RrZiWudODGyoUMdNAY+PN3iH4zyH4eEa/Fs+9kIrREig==
-                        }
-                peerDependencies:
-                        solid-js: ^1.6.12
-                dependencies:
-                        '@solid-primitives/event-listener': 2.2.13_solid-js@1.7.4
-                        '@solid-primitives/rootless': 1.4.1_solid-js@1.7.4
-                        '@solid-primitives/static-store': 0.0.4_solid-js@1.7.4
-                        '@solid-primitives/utils': 6.2.0_solid-js@1.7.4
-                        solid-js: 1.7.4
-                dev: false
-
-        /@solid-primitives/rootless/1.4.1_solid-js@1.7.4:
-                resolution:
-                        {
-                                integrity: sha512-h7VBUk8usD76Eh1a4wT17PcGtIRxGPlLuJ4Mf7roCNu46W5cc9DAoz8M6XebuZWVKeUkML/JuPMZQSV0mLo2Fw==
-                        }
-                peerDependencies:
-                        solid-js: ^1.6.12
-                dependencies:
-                        '@solid-primitives/utils': 6.2.0_solid-js@1.7.4
-                        solid-js: 1.7.4
-                dev: false
-
-        /@solid-primitives/static-store/0.0.4_solid-js@1.7.4:
-                resolution:
-                        {
-                                integrity: sha512-NcLtDNA6H+Z9LmqaUe4SKfMx0YbszIMXEqfV15cB34t5XyEeOM5TihYwsVJ/dpkmpHYzflm0SwAL+P9uwyzvWQ==
-                        }
-                peerDependencies:
-                        solid-js: ^1.6.12
-                dependencies:
-                        '@solid-primitives/utils': 6.2.0_solid-js@1.7.4
-                        solid-js: 1.7.4
-                dev: false
-
-        /@solid-primitives/utils/6.2.0_solid-js@1.7.4:
-                resolution:
-                        {
-                                integrity: sha512-T62WlLwKkbmicsw/xpwMQyv9MmZRSaVyutXfS5icc9v0cb8qGMUxRxr5LVvZHYQCZ9DEFboZB0r711xsbVBbeA==
-                        }
-                peerDependencies:
-                        solid-js: ^1.6.12
-                dependencies:
-                        solid-js: 1.7.4
-                dev: false
 
         /@solidjs/meta/0.28.4_solid-js@1.7.4:
                 resolution:
@@ -3031,23 +2933,6 @@ packages:
                                 integrity: sha512-F1ZInsg53cegyjroxLNW9DmrEQ1SuGRTO1QlpA0o2/6OpQ0gFeDRoq1yFmnr8Sakn9qwwt9DmbxHB6w167OSuQ==
                         }
 
-        /canvas/2.11.2:
-                resolution:
-                        {
-                                integrity: sha512-ItanGBMrmRV7Py2Z+Xhs7cT+FNt5K0vPL4p9EZ/UX/Mu7hFbkxSjKF2KVtPwX7UYWp7dRKnrTvReflgrItJbdw==
-                        }
-                engines: { node: '>=6' }
-                requiresBuild: true
-                dependencies:
-                        '@mapbox/node-pre-gyp': 1.0.10
-                        nan: 2.17.0
-                        simple-get: 3.1.1
-                transitivePeerDependencies:
-                        - encoding
-                        - supports-color
-                dev: false
-                optional: true
-
         /ccount/2.0.1:
                 resolution:
                         {
@@ -3487,17 +3372,6 @@ packages:
                 dependencies:
                         character-entities: 2.0.2
                 dev: false
-
-        /decompress-response/4.2.1:
-                resolution:
-                        {
-                                integrity: sha512-jOSne2qbyE+/r8G1VU+G/82LBs2Fs4LAsTiLSHOCOMZQl2OKZ6i8i4IyHemTe+/yIXOtTcRQMzPcgyhoFlqPkw==
-                        }
-                engines: { node: '>=8' }
-                dependencies:
-                        mimic-response: 2.1.0
-                dev: false
-                optional: true
 
         /deepmerge/4.3.1:
                 resolution:
@@ -4668,16 +4542,6 @@ packages:
                         }
                 dev: false
 
-        /loose-envify/1.4.0:
-                resolution:
-                        {
-                                integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
-                        }
-                hasBin: true
-                dependencies:
-                        js-tokens: 4.0.0
-                dev: false
-
         /lru-cache/5.1.1:
                 resolution:
                         {
@@ -5329,15 +5193,6 @@ packages:
                 engines: { node: '>=12' }
                 dev: true
 
-        /mimic-response/2.1.0:
-                resolution:
-                        {
-                                integrity: sha512-wXqjST+SLt7R009ySCglWBCFpjUygmCIfD790/kVbiGmUgfYGuB14PiTd5DwVxSV4NcYHjzMkoj5LjQZwTQLEA==
-                        }
-                engines: { node: '>=8' }
-                dev: false
-                optional: true
-
         /min-indent/1.0.1:
                 resolution:
                         {
@@ -5451,14 +5306,6 @@ packages:
                         object-assign: 4.1.1
                         thenify-all: 1.6.0
                 dev: true
-
-        /nan/2.17.0:
-                resolution:
-                        {
-                                integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
-                        }
-                dev: false
-                optional: true
 
         /nanoid/3.3.6:
                 resolution:
@@ -5799,36 +5646,12 @@ packages:
                 engines: { node: '>=8' }
                 dev: true
 
-        /path2d-polyfill/2.0.1:
-                resolution:
-                        {
-                                integrity: sha512-ad/3bsalbbWhmBo0D6FZ4RNMwsLsPpL6gnvhuSaU5Vm7b06Kr5ubSltQQ0T7YKsiJQO+g22zJ4dJKNTXIyOXtA==
-                        }
-                engines: { node: '>=8' }
-                requiresBuild: true
-                dev: false
-                optional: true
-
         /pathe/1.1.1:
                 resolution:
                         {
                                 integrity: sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==
                         }
                 dev: true
-
-        /pdfjs-dist/3.9.179:
-                resolution:
-                        {
-                                integrity: sha512-AZBEIAORYDaOAlM0/A4Zg465+XF3ugYDdgrVmioVvNW5tH3xs3RpGFBYOG5PM9/vLM3M/wNncsMLTgyIKdqMKg==
-                        }
-                engines: { node: '>=18' }
-                optionalDependencies:
-                        canvas: 2.11.2
-                        path2d-polyfill: 2.0.1
-                transitivePeerDependencies:
-                        - encoding
-                        - supports-color
-                dev: false
 
         /picocolors/1.0.0:
                 resolution:
@@ -6093,16 +5916,6 @@ packages:
                         }
                 engines: { node: '>=8' }
                 dev: true
-
-        /react/18.2.0:
-                resolution:
-                        {
-                                integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
-                        }
-                engines: { node: '>=0.10.0' }
-                dependencies:
-                        loose-envify: 1.4.0
-                dev: false
 
         /read-cache/1.0.0:
                 resolution:
@@ -6515,26 +6328,6 @@ packages:
                         {
                                 integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
                         }
-
-        /simple-concat/1.0.1:
-                resolution:
-                        {
-                                integrity: sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==
-                        }
-                dev: false
-                optional: true
-
-        /simple-get/3.1.1:
-                resolution:
-                        {
-                                integrity: sha512-CQ5LTKGfCpvE1K0n2us+kuMPbk/q0EKl82s4aheV9oXjFEz6W/Y7oQFVJuU6QG77hRT4Ghb5RURteF5vnWjupA==
-                        }
-                dependencies:
-                        decompress-response: 4.2.1
-                        once: 1.4.0
-                        simple-concat: 1.0.1
-                dev: false
-                optional: true
 
         /sirv/2.0.3:
                 resolution:
@@ -7438,17 +7231,6 @@ packages:
                         punycode: 2.3.0
                 dev: true
 
-        /use-sync-external-store/1.2.0_react@18.2.0:
-                resolution:
-                        {
-                                integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
-                        }
-                peerDependencies:
-                        react: ^16.8.0 || ^17.0.0 || ^18.0.0
-                dependencies:
-                        react: 18.2.0
-                dev: false
-
         /util-deprecate/1.0.2:
                 resolution:
                         {
@@ -7783,25 +7565,6 @@ packages:
                         }
                 engines: { node: '>=10' }
                 dev: true
-
-        /zustand/4.3.9_react@18.2.0:
-                resolution:
-                        {
-                                integrity: sha512-Tat5r8jOMG1Vcsj8uldMyqYKC5IZvQif8zetmLHs9WoZlntTHmIoNM8TpLRY31ExncuUvUOXehd0kvahkuHjDw==
-                        }
-                engines: { node: '>=12.7.0' }
-                peerDependencies:
-                        immer: '>=9.0'
-                        react: '>=16.8'
-                peerDependenciesMeta:
-                        immer:
-                                optional: true
-                        react:
-                                optional: true
-                dependencies:
-                        react: 18.2.0
-                        use-sync-external-store: 1.2.0_react@18.2.0
-                dev: false
 
         /zwitch/2.0.4:
                 resolution:
