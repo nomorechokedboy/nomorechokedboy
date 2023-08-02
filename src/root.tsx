@@ -11,11 +11,13 @@ import {
 	FileRoutes,
 	Head,
 	Html,
+	Link,
 	Meta,
 	Routes,
 	Scripts,
 	Title
 } from 'solid-start'
+import printStyles from '~/print.css'
 import '~/root.css'
 import { themeStore } from '~/stores'
 
@@ -32,6 +34,11 @@ export default function Root() {
 				<Meta
 					name='viewport'
 					content='width=device-width, initial-scale=1'
+				/>
+				<Link
+					rel='stylesheet'
+					href={printStyles}
+					media='print'
 				/>
 			</Head>
 			<Body class='bg-white dark:bg-black relative'>

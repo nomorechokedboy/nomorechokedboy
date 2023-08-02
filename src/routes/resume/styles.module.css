@@ -1,0 +1,4 @@
+.markdown li {
+	@apply text-neutral-600;
+	list-style: inside;
+}
