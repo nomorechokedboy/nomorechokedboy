@@ -4,6 +4,7 @@ import A6BlogLogo from '~/assets/a6blog.png'
 import AppBorderHover from '~/assets/app-border-hover.svg'
 import AppBorder from '~/assets/app-border.svg'
 import MarkdownVueIcon from '~/assets/markdown-vue.png'
+import SectionHeader from '~/components/SectionHeader'
 
 export default function Projects() {
 	const projects = [
@@ -25,9 +26,7 @@ export default function Projects() {
 			id='projects'
 		>
 			<div class='container py-14 text-center mx-auto'>
-				<span class='font-bold text-2xl text-black dark:text-white'>
-					Projects
-				</span>
+				<SectionHeader title='Projects' />
 				<div class='grid p-5 grid-cols-2 gap-5 md:grid-cols-4 md:p-10 md:gap-10'>
 					<For each={projects}>
 						{(project) => (
