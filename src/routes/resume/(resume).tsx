@@ -30,7 +30,7 @@ export default function Resume() {
 				name: 'Unicloud',
 				href: 'https://www.unicloud.com.vn/vi/'
 			},
-			content: "- Constructed and implemented user interfaces for CMS systems such as STM Controller, Umee pay.\n- Developed and tested modularized ReactJS components using TailwindCSS and Vitest.\n- Implemented a customized, testable and flexible component library for internal use.\n- Optimized images loading approximately 45% by using .webp format, and compressing the images.\n- Improved web applications' lighthouse metrics 20% by identifying heavy assets, components, and loading them lazily. - Built a game platform called Umee game within the Umee ecosystem using ReactJS, and SCSS.\n- Developed landing pages for projects within the Unicloud ecosystem including Bizzone ERP.",
+			content: "- Constructed and implemented user interfaces for CMS systems such as STM Controller, Umee pay.\n- Developed and tested modularized React.js components using TailwindCSS and Vitest.\n- Implemented a customized, testable and flexible component library for internal use.\n- Optimized images loading approximately 45% by using .webp format, and compressing the images.\n- Improved web applications' lighthouse metrics 20% by identifying heavy assets, components, and loading them lazily. - Built a game platform called Umee game within the Umee ecosystem using React.js, and SCSS.\n- Developed landing pages for projects within the Unicloud ecosystem including Bizzone ERP.",
 			endDate: 'June 2023',
 			jobTitle: 'Frontend Developer',
 			startDate: 'June 2022'
@@ -40,7 +40,7 @@ export default function Resume() {
 				name: 'LmssPlus',
 				href: 'https://lmssplus.com/'
 			},
-			content: '- Designed and implemented API endpoints and UI components using ExpressJS, ReactJS.\n- Architectured the system to ensure compatibility between third-party API and system interfaces, enabling loosely coupling between components.\n- Reduced application deployment and testing time by 30% by automating shorter testing and deploy phases using Docker.',
+			content: '- Designed and implemented API endpoints and UI components using Express.js, React.js.\n- Architectured the system to ensure compatibility between third-party API and system interfaces, enabling loosely coupling between components.\n- Reduced application deployment and testing time by 30% by automating shorter testing and deploy phases using Docker.',
 			endDate: 'June 2022',
 			jobTitle: 'Collaborator Developer',
 			startDate: 'June 2021'
@@ -55,7 +55,8 @@ export default function Resume() {
 				'Echo',
 				'GORM',
 				'Docker',
-				'NextJs'
+				'Next.js',
+				'React.js'
 			],
 			url: '',
 			repositoryUrl:
@@ -64,15 +65,27 @@ export default function Resume() {
 		{
 			content: "- Designed and developed a blog web application with web accessibility (A11y) standards and text-to-speech (TTS) functionality to enhance reading experiences of disabled audiences'.\n- Attained horizontal scalability through using Server-Sent Event (SSE) to enable real-time notifications and Redis pub/sub. This result increases the notification request the server can handle by 50%.\n- Integrated multiple third-party systems authentication such as Github, Google, Twitter, etc, using OAuth.",
 			name: 'Accessiblog',
-			technologies: ['Go', 'Rust', 'NuxtJs', 'Vercel'],
+			technologies: [
+				'Go',
+				'Rust',
+				'Nuxt.js',
+				'Vue.js',
+				'Vercel'
+			],
 			url: 'https://a6blog.lehohaiduong.dev/',
 			repositoryUrl:
 				'https://github.com/nomorechokedboy/a6blog'
 		},
 		{
-			content: '- Prevented 100% of XSS attacks by using an Abstract Syntax Tree (AST) to parse components instead of using v-html or innerHTML.\n- Achieved test coverage of over 90% using Vitest and ensured 100% type safety using Typescript.\n- Developed a universal component that can run on client side rendering (CSR) and server side rendering (SSR) using NuxtJS Module, VueJS, and Vite.',
+			content: '- Prevented 100% of XSS attacks by using an Abstract Syntax Tree (AST) to parse components instead of using v-html or innerHTML.\n- Achieved test coverage of over 90% using Vitest and ensured 100% type safety using Typescript.\n- Developed a universal component that can run on client side rendering (CSR) and server side rendering (SSR) using Nuxt.js Module, Vue.js, and Vite.',
 			name: 'Markdown Vue',
-			technologies: ['NuxtJs', 'Vite', 'Vitest', 'Vercel'],
+			technologies: [
+				'Nuxt.js',
+				'Vue.js',
+				'Vite',
+				'Vitest',
+				'Vercel'
+			],
 			url: 'https://markdown-vue.lehohaiduong.dev/story/src-runtime-components-vuemarkdown-stories-vue?variantId=src-runtime-components-vuemarkdown-stories-vue-0',
 			repositoryUrl:
 				'https://github.com/nomorechokedboy/markdown-vue'
@@ -92,11 +105,13 @@ export default function Resume() {
 			{ children: 'GRPC' },
 			{ children: 'Fiber' },
 			// { children: 'Axum' },
-			{ children: 'ExpressJs' },
+			{ children: 'Express.js' },
+			{ children: 'Node.js' },
 			{ children: 'PostgreSQL' },
 			{ children: 'MongoDB' },
 			{ children: 'Redis' },
-			{ children: 'NextJs' },
+			{ children: 'Next.js' },
+			{ children: 'React.js' },
 			{ children: 'HTML' },
 			{ children: 'CSS' },
 			{ children: 'Docker' },
