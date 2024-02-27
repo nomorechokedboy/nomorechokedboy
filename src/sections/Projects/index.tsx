@@ -65,7 +65,7 @@ export default function Projects() {
 											}
 										/>
 									</div>
-									<span class='font-normal text-sm md:text-2xl text-black dark:text-white text-start'>
+									<span class='font-normal text-sm md:text-xl text-black dark:text-white text-start'>
 										{
 											project.name
 										}

@@ -89,6 +89,7 @@ export default function Resume() {
 			{ children: 'SOLID' }
 		],
 		Technologies: [
+			{ children: 'GRPC' },
 			{ children: 'Fiber' },
 			// { children: 'Axum' },
 			{ children: 'ExpressJs' },
