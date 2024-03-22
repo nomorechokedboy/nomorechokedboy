@@ -47,7 +47,8 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 <!--START_SECTION:waka-->
 
 ```txt
-Mason   0 secs          █████████████████████████   100.00 %
+Go      44 mins         ████████████████████████▓   99.02 %
+Other   0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.98 %
 ```
 
 <!--END_SECTION:waka-->
