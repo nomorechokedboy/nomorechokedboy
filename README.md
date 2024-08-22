@@ -47,11 +47,11 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 <!--START_SECTION:waka-->
 
 ```txt
-Go                9 hrs 23 mins   ██████████████▓░░░░░░░░░░   58.76 %
-netrw             3 hrs 8 mins    █████░░░░░░░░░░░░░░░░░░░░   19.65 %
-Rust              57 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.02 %
-JSON              50 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.25 %
-Git               24 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.58 %
+Go                8 hrs 19 mins   ██████████████▒░░░░░░░░░░   57.19 %
+netrw             3 hrs 9 mins    █████▒░░░░░░░░░░░░░░░░░░░   21.66 %
+JSON              50 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.76 %
+Protocol Buffer   39 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.54 %
+Git               24 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.80 %
 ```
 
 <!--END_SECTION:waka-->
