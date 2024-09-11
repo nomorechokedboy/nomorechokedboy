@@ -47,11 +47,11 @@ I'm Duong Le, I am currently learning to become a Software Engineer. I Spend mos
 <!--START_SECTION:waka-->
 
 ```txt
-Go                         23 hrs 34 mins  █████████████████▓░░░░░░░   70.68 %
-YAML                       3 hrs 17 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.88 %
-netrw                      2 hrs 16 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.80 %
-Bash                       1 hr 48 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.40 %
-Docker                     49 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.45 %
+Go                         26 hrs 44 mins  ████████████████▒░░░░░░░░   65.73 %
+YAML                       5 hrs 53 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.47 %
+netrw                      3 hrs 8 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 %
+Bash                       1 hr 48 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.43 %
+Docker                     1 hr 10 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.90 %
 ```
 
 <!--END_SECTION:waka-->
