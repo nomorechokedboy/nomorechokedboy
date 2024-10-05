@@ -17,15 +17,12 @@ import {
 	Scripts,
 	Title
 } from 'solid-start'
-import printStyles from '~/print.css'
+import printStyles from '~/print.css?inline'
 import '~/root.css'
-import { themeStore } from '~/stores'
 
 export default function Root() {
-	const { theme } = themeStore
-
 	return (
-		<Html class={theme()} lang='en'>
+		<Html lang='en'>
 			<Head>
 				<Title>
 					Le Ho Hai Duong | Fullstack Developer
@@ -40,6 +37,16 @@ export default function Root() {
 					href={printStyles}
 					media='print'
 				/>
+				<script>
+					{`
+                        (function() {
+                            const theme = localStorage.getItem("theme") || 'os';
+                            if (theme === "dark" || (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+                                document.documentElement.classList.add("dark");
+                            }
+                        })();
+                    `}
+				</script>
 			</Head>
 			<Body class='bg-white dark:bg-black relative'>
 				<Suspense>
